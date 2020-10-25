@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int sum(a, b);
+int raz(a, b);
+
 
 int main(){
     printf("Hello, World!\n");
@@ -12,5 +14,10 @@ int main(){
 int sum(a, b){
      int y;
      y = a + b;
+     return(y);
+ }
+int raz(a, b){
+     int y;
+     y = a - b;
      return(y);
  }
