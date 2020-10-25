@@ -2,7 +2,7 @@
 
 int sum(a, b);
 int raz(a, b);
-
+int um(a, b);
 
 int main(){
     printf("Hello, World!\n");
@@ -19,5 +19,10 @@ int sum(a, b){
 int raz(a, b){
      int y;
      y = a - b;
+     return(y);
+ }
+ int um(a, b){
+     int y;
+     y = a * b;
      return(y);
  }
