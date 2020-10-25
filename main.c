@@ -3,6 +3,7 @@
 int sum(a, b);
 int raz(a, b);
 int um(a, b);
+float del(a, b);
 
 int main(){
     printf("Hello, World!\n");
@@ -24,5 +25,10 @@ int raz(a, b){
  int um(a, b){
      int y;
      y = a * b;
+     return(y);
+ }
+ float del(a, b){
+     float y;
+     y = (float) a / b;
      return(y);
  }
